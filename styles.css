@@ -1,0 +1,37 @@
+body {
+    background-color: red;
+}
+h1 {
+    color: yellow;
+    border: 5px solid purple
+}
+h2 {
+    color: purple;
+}
+h3 {
+    background-color: lightgreen;
+}
+
+.adoption-requirements{
+    background-color: purple;
+    
+}
+.adoption-requirements > h2 {
+    color: white;
+}
+
+/* style anyone with adoption-steps class */
+.adoption-steps{
+    background-color: cyan;
+    
+}
+/* class selector starts with . */
+/* the > h2 means grab the h2 inside of the thing with the class */
+.adoption-steps >h2{
+    color: red;
+}
+
+/* Id selector starts with # */
+#highlighted-pet {
+    background-color: yellow;
+}

@@ -4,6 +4,26 @@
     <head>
         <!-- Don't put things like divs, paragraphs here -->
         <title>NYU Pet Charity</title>
+        <!-- inline styles, simplest
+            type attribute is best practice but won't blow up website if forgotten 
+        -->
+        <!-- <style type="text/css">
+            body {
+                background-color: red;
+            }
+            h1 {
+                color: yellow;
+            }
+            h2 {
+                color: purple;
+            }
+            h3 {
+                background-color: lightgreen;
+            }
+        </style> -->
+
+        <link rel="stylesheet" href="./styles.css"/>
+        <link rel="stylesheet" href="./menu.css"/>
     </head>
     <!-- visible stuff goes here -->
     <body>
@@ -12,7 +32,7 @@
 
 
         <!-- Put a menu here -->
-        <div>
+        <div class="menu">
             <h2>Go Home</h2>
             <h2>
                 <a href="./contact.html">
@@ -38,6 +58,7 @@
             <h1>Article Title</h1>
             <h2>Section title</h2>
             <h3>Paragraph title</h3>
+            <h3>Paragraph 2 should be pink</h3>
             <h4>Diagram title</h4>
             <h5>Chart label</h5>
             <h6>Something here</h6>
@@ -45,7 +66,7 @@
         </div>
 
         <!-- Requirements for adoption -->
-        <div>
+        <div class="adoption-requirements">
             <h2>Adoption Requirements</h2>
             <!-- un-ordered list / bulleted list -->
             <ul>
@@ -55,7 +76,7 @@
             </ul>
         </div>
         <!-- Adoption steps -->
-        <div>
+        <div class="adoption-steps">
             <h2>Adoption steps</h2>
             <!-- ordered list aka numbered list -->
             <ul>
@@ -68,7 +89,7 @@
             </ul>
         </div>
         <!-- Corey section -->
-        <div>
+        <div id="highlighted-pet">
             <h2>Cory</h2>
             <p>Cory is a German Shepard Puppy. 18 Weeks old and has been vaccinated and spayed</p>
             <img
@@ -84,7 +105,7 @@
         </div> 
         
 
-        <div>
+        <div id="highlighted-pet">
             <h2>Fluffy</h2>
             <p>Yellow cat</p>
             <img src="./images/fluffy.jpg" alt="picture of cat"/> 
