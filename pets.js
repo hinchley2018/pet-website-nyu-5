@@ -93,3 +93,20 @@ console.log(roverSection)
 
 //let's only destory the house with termites, that we told it to
 roverSection.remove()
+
+
+///high-levle
+// we added a button in html, get it by id
+let coryAdoptButton = document.querySelector("#cory-adopt-button")
+// we need to listen for when this button is clicked
+//scope creep from your lovely product manager Nohtanoj
+    //remove that pet from screen
+coryAdoptButton.addEventListener("click", function(){
+    // button turns blue
+    console.log("turn the button blue")
+    coryAdoptButton.style.backgroundColor = "blue"
+    //get that pet section by id 
+    let corySection = document.querySelector("#cory-section")
+    //demolition
+    corySection.remove()
+})
