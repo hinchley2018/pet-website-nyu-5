@@ -48,13 +48,13 @@ else {
 }
 
 
-let userChoice1 = window.prompt("Do you go left or right")
+// let userChoice1 = window.prompt("Do you go left or right")
 
-//nested if statments
-if (userChoice1 === "right"){
-    console.log("You walked right. And ran into a fiery dragon")
-    let userChoice2 = window.prompt("Do you fight the dragon or run?")
-    if (userChoice2 === "fight"){
-        console.log("you fought")
-    }
-}
+// //nested if statments
+// if (userChoice1 === "right"){
+//     console.log("You walked right. And ran into a fiery dragon")
+//     let userChoice2 = window.prompt("Do you fight the dragon or run?")
+//     if (userChoice2 === "fight"){
+//         console.log("you fought")
+//     }
+// }
